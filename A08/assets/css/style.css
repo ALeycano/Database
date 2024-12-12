@@ -1,0 +1,57 @@
+body {
+    background-color: #196969;  
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin-top: 50px;
+}
+
+.card {
+    border-radius: 10px;
+    background-color: #d8eeee;
+}
+
+h1, .display-1 {
+    color: #0056b3;
+
+}
+
+table th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+table th.sortable:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table .highlight {
+    background-color: #f8d7da;
+}
+
+table tr:hover {
+    background-color: #e9ecef;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+button.btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+}
